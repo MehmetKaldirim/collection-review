@@ -8,7 +8,7 @@ public class MapReview {
         map.put(2, "Moses");
         System.out.println(map.get(2));
         System.out.println("--------------------------------------");
-        System.out.println(findFirstNonRepeating("Cydeo java developer"));
+        System.out.println(findFirstNonRepeating("Cydeo java "));
     }
     public static Character findFirstNonRepeating(String str){
         Map<Character,Integer> map=new HashMap<>();
